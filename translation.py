@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """Namaste {},
+    START_TEXT = """Namaste {message.from_user.first_name},
 It's a good day to have a good day!
 
 <b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
